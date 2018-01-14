@@ -448,6 +448,14 @@ The mean magnitude of the weighted average of the frequency components of the ma
  - Class: number
  - Unit of measurement: seconds
 
+## Description of the Variables in the averaged_data.csv file
+
+### General Description
+ - Dimensions: this dataset is 180 observations (rows) of  81 variables (columns) 
+ - Summary of the data: there is one observation for each activity performed by each research subject (30 subjects x 6 activities = 180 observations). For each of these observations, the mean value is provided for the remaining 79 measurements made by the Samsung Galaxy S II accelerometer and gyroscope (mean and standard deviation values).  
+ - All variables in the data are the same as those described for all_data.csv above.
+
+
 
 ## Sources
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
