@@ -35,29 +35,17 @@ The procedure for creating the tidy data file from the raw data files is relativ
 The run_analysis.R script is well described in the [README](https://github.com/ldhandley/Getting_and_Cleaning_Data_Course_Project#the-process). Briefly, the run_analysis.R script combines the test and training datasets, after appropriately labeling all columns and cleaning up variable names. This produces the all_data.csv file. Further processing is used to summarize the data by the mean value for each subject for each activity in the averaged_data.csv file. 
 
 ## Description of the Variables in the all_data.csv file
-General description of the file including:
- - Dimensions of the dataset
- - Summary of the data
- - Variables present in the dataset
 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
+### General Description
+ - Dimensions: this dataset is 10299 observations (rows) of  81 variables (columns) 
+ - Summary of the data: the data identify subjectnumber (of 30 subjects) and activityname (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING), along with 79 different measurements made by the Samsung Galaxy S II accelerometer and gyroscope (mean and standard deviation values).  
+ - All variables in the data will be described below: 
 
-###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
+### subjectnumber
+Thirty (30) subjects participated in this study. Each of those participants was given a number 1-30.
+ - Class: integer
+ - Unique values/levels of the variable: 1-30
+ - Unit of measurement: none
 
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
-
-##Sources
-Sources you used if any, otherise leave out.
-
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
+## Sources
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
