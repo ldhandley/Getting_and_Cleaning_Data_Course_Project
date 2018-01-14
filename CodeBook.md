@@ -44,8 +44,191 @@ The run_analysis.R script is well described in the [README](https://github.com/l
 ### subjectnumber
 Thirty (30) subjects participated in this study. Each of those participants was given a number 1-30.
  - Class: integer
- - Unique values/levels of the variable: 1-30
+ - Unique values/levels of the variable: all integers between 1-30
  - Unit of measurement: none
+
+### activityname 
+Participants were recorded while performing 6 different activities.
+ - Class: factor
+ - Unique values/levels of the variable: 6 levels are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
+ - Unit of measurement: none
+
+### timebodyaccmeanx 
+Mean body acceleration signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccmeanx 
+Mean body acceleration signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccmeanz
+Mean body acceleration signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccstdx 
+Standard deviation of body acceleration signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccstdy
+Standard deviation of body acceleration signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccstdz
+Standard deviation of body acceleration signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timegravityaccmeanx 
+Mean gravity acceleration signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timegravityaccmeany 
+Mean gravity acceleration signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timegravityaccmeanz 
+Mean gravity acceleration signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timegravityaccstdx 
+Standard deviation of gravity acceleration signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timegravityaccstdy 
+Standard deviation of gravity acceleration signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timegravityaccstdz
+Standard deviation of gravity acceleration signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccjerkmeanx 
+Mean jerk signal derived from body acceleration signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccjerkmeany  
+Mean jerk signal derived from body acceleration signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccjerkmeanz  
+Mean jerk signal derived from body acceleration signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccjerkstdx  
+Standard deviation of the jerk signal derived from body acceleration signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccjerkstdy  
+Standard deviation of the jerk signal derived from body acceleration signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccjerkstdz  
+Standard deviation of the jerk signal derived from body acceleration signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyromeanx  
+Mean body gyroscope signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyromeany  
+Mean body gyroscope signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyromeanz  
+Mean body gyroscope signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrostdx 
+Standard deviation of body gyroscope signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrostdy 
+Standard deviation of body gyroscope signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrostdz 
+Standard deviation of body gyroscope signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrojerkmeanx 
+Mean of the jerk signal derived from the body gyroscope signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrojerkmeany 
+Mean of the jerk signal derived from the body gyroscope signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrojerkmeanxz 
+Mean of the jerk signal derived from the body gyroscope signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrojerkstdx 
+Standard deviation of the jerk signal derived from the body gyroscope signal in the time domain along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrojerkstdy 
+Standard deviation of the jerk signal derived from the body gyroscope signal in the time domain along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrojerkstdz 
+Standard deviation of the jerk signal derived from the body gyroscope signal in the time domain along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccmagmean 
+The mean magnitude, calculated using the Euclidean norm, of the body accelerometer signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodyaccmagstd  
+Standard deviation of the magnitude, calculated using the Euclidean norm, of the body accelerometer signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
+
+### timegravityaccmagmean
+The mean magnitude, calculated using the Euclidean norm, of the gravity part of the accelerometer signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
+
+### timegravityaccmagstd  
+Standard deviation of the mean magnitude, calculated using the Euclidean norm, of the gravity part of the accelerometer signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
+
+
+
+timebodyaccjerkmagmean timebodyaccjerkmagstd timebodygyromagmean timebodygyromagstd timebodygyrojerkmagmean timebodygyrojerkmagstd freqbodyaccmeanx freqbodyaccmeany freqbodyaccmeanz freqbodyaccstdx freqbodyaccstdy freqbodyaccstdz freqbodyaccmeanfreqx freqbodyaccmeanfreqy freqbodyaccmeanfreqz freqbodyaccjerkmeanx freqbodyaccjerkmeany freqbodyaccjerkmeanz freqbodyaccjerkstdx freqbodyaccjerkstdy freqbodyaccjerkstdz freqbodyaccjerkmeanfreqx freqbodyaccjerkmeanfreqy freqbodyaccjerkmeanfreqz freqbodygyromeanx freqbodygyromeany freqbodygyromeanz freqbodygyrostdx freqbodygyrostdy freqbodygyrostdz freqbodygyromeanfreqx freqbodygyromeanfreqy freqbodygyromeanfreqz freqbodyaccmagmean freqbodyaccmagstd freqbodyaccmagmeanfreq freqbodybodyaccjerkmagmean freqbodybodyaccjerkmagstd freqbodybodyaccjerkmagmeanfreq freqbodybodygyromagmean freqbodybodygyromagstd freqbodybodygyromagmeanfreq freqbodybodygyrojerkmagmean freqbodybodygyrojerkmagstd freqbodybodygyrojerkmagmeanfreq
+
+
+
 
 ## Sources
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
