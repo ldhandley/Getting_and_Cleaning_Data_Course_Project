@@ -24,8 +24,8 @@ You should create one R script called run_analysis.R that does the following.
 <table>
 <tr><th>File Name</th><th>Description</th></tr>
 <tr><td valign=top>README.md</td><td>Documentation explaining the project and how to use files contained in the repository.</td></tr>
-<tr><td valign=top>Raw Datasets</td><td>A folder containing the original "Human Activity Recognition Using Smartphones Dataset" dataset from Jorge L. Reyes-Ortiz, et al. This data is used to generate the Tidy Datasets below.</td></tr>
-<tr><td valign=top><Tidy Datasets/td><td>A folder containing the final tiny datasets for this project. There are two tidy data sets included in this folder: (1) all-data.csv, which contains the complete dataset, and (2) averaged-data.csv, which summarizes all-data.csv by averaging each variable for each activity and each subject.</td></tr>
+<tr><td valign=top>Raw Datasets</td><td>A folder containing the original "Human Activity Recognition Using Smartphones Dataset" dataset from Jorge L. Reyes-Ortiz, et al. This data is used to generate the Tidy Datasets folder by running the run_analysis.R script.</td></tr>
+<tr><td valign=top>Tidy Datasets</td><td>A folder containing the final tiny datasets for this project. There are two tidy data sets included in this folder: (1) all-data.csv, which contains the complete dataset, and (2) averaged-data.csv, which summarizes all-data.csv by averaging each variable for each activity and each subject.</td></tr>
 <tr><td valign=top>run_analysis.R</td><td>An R script which processes the raw datasets to the tidy datasets.</td></tr>
 <tr><td valign=top>CodeBook.md</td><td>A code book that describes the variables, the data, and any transformations or work performed to clean up the data.</td></tr>
 </table> 
