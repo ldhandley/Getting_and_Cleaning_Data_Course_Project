@@ -223,11 +223,230 @@ Standard deviation of the mean magnitude, calculated using the Euclidean norm, o
  - Class: number
  - Unit of measurement: seconds
 
+### timebodyaccjerkmagmean
+The mean magnitude, calculated using the Euclidean norm, of the jerk signal derived from the body accelerometer signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
 
+### timebodyaccjerkmagstd  
+Standard deviation of the magnitude, calculated using the Euclidean norm, of the jerk signal derived from the body accelerometer signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
 
-timebodyaccjerkmagmean timebodyaccjerkmagstd timebodygyromagmean timebodygyromagstd timebodygyrojerkmagmean timebodygyrojerkmagstd freqbodyaccmeanx freqbodyaccmeany freqbodyaccmeanz freqbodyaccstdx freqbodyaccstdy freqbodyaccstdz freqbodyaccmeanfreqx freqbodyaccmeanfreqy freqbodyaccmeanfreqz freqbodyaccjerkmeanx freqbodyaccjerkmeany freqbodyaccjerkmeanz freqbodyaccjerkstdx freqbodyaccjerkstdy freqbodyaccjerkstdz freqbodyaccjerkmeanfreqx freqbodyaccjerkmeanfreqy freqbodyaccjerkmeanfreqz freqbodygyromeanx freqbodygyromeany freqbodygyromeanz freqbodygyrostdx freqbodygyrostdy freqbodygyrostdz freqbodygyromeanfreqx freqbodygyromeanfreqy freqbodygyromeanfreqz freqbodyaccmagmean freqbodyaccmagstd freqbodyaccmagmeanfreq freqbodybodyaccjerkmagmean freqbodybodyaccjerkmagstd freqbodybodyaccjerkmagmeanfreq freqbodybodygyromagmean freqbodybodygyromagstd freqbodybodygyromagmeanfreq freqbodybodygyrojerkmagmean freqbodybodygyrojerkmagstd freqbodybodygyrojerkmagmeanfreq
+### timebodygyromagmean 
+The mean magnitude, calculated using the Euclidean norm, of the body gyroscope signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
 
+### timebodygyromagstd 
+Standard deviation of the magnitude, calculated using the Euclidean norm, of the body gyroscope signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
 
+### timebodygyrojerkmagmean 
+The mean magnitude, calculated using the Euclidean norm, of the jerk signal derived from the body gyroscope signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
+
+### timebodygyrojerkmagstd 
+Standard deviation of the magnitude, calculated using the Euclidean norm, of the jerk signal derived from the body gyroscope signal in the time domain
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccmeanx 
+Mean body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccmeany 
+Mean body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccmeanz 
+Mean body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccstdx 
+Standard deviation of body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccstdy 
+Standard deviation of body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccstdz 
+Standard deviation of body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccmeanfreqx 
+Weighted average of the frequency components to obtain a mean frequency of body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccmeanfreqy 
+Weighted average of the frequency components to obtain a mean frequency of body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccmeanfreqz 
+Weighted average of the frequency components to obtain a mean frequency of body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkmeanx 
+Mean jerk signal derived from body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkmeany  
+Mean jerk signal derived from body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkmeanz 
+Mean jerk signal derived from body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkstdx 
+Standard deviation of jerk signal derived from body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkstdy 
+Standard deviation of jerk signal derived from body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkstdz 
+Standard deviation of jerk signal derived from body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkmeanfreqx 
+Weighted average of the frequency components to obtain a mean frequency of jerk signal derived from body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkmeanfreqy 
+Weighted average of the frequency components to obtain a mean frequency of jerk signal derived from  body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkmeanfreqz 
+Weighted average of the frequency components to obtain a mean frequency of jerk signal derived from body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodygyromeanx 
+Mean body gyroscope signal in the frequency domain (after Fast Fourier Transform) along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodygyromeany  
+Mean body gyroscope signal in the frequency domain (after Fast Fourier Transform) along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccjerkmeanz 
+Mean body accelerometer signal in the frequency domain (after Fast Fourier Transform) along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodygyrostdx 
+Standard deviation of body gyroscope signal in the frequency domain (after Fast Fourier Transform) along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodygyrostdy  
+Standard deviation of body gyroscope signal in the frequency domain (after Fast Fourier Transform) along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodygyrostdz 
+Standard deviation of body gyroscpe signal in the frequency domain (after Fast Fourier Transform) along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodygyromeanfreqx 
+Weighted average of the frequency components to obtain a mean frequency from body gyroscope signal in the frequency domain (after Fast Fourier Transform) along the X direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodygyromeanfreqy 
+Weighted average of the frequency components to obtain a mean frequency from body gyroscope signal in the frequency domain (after Fast Fourier Transform) along the Y direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodygyromeanfreqz 
+Weighted average of the frequency components to obtain a mean frequency from body gyroscope signal in the frequency domain (after Fast Fourier Transform) along the Z direction 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccmagmean 
+The mean magnitude, calculated using the Euclidean norm, of the body accelerometer signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccmagstd 
+Standard deviation of the mean magnitude, calculated using the Euclidean norm, of the body accelerometer signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodyaccmagmeanfreq 
+Weighted average of the frequency components to obtain a mean frequency of magnitude, calculated using the Euclidean norm, of the body accelerometer signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodybodyaccjerkmagmean 
+The mean magnitude, calculated using the Euclidean norm, of jerk signal derived from the body accelerometer signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodybodyaccjerkmagstd 
+The standard deviation of the magnitude, calculated using the Euclidean norm, of the jerk signal derived from the body accelerometer signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodybodyaccjerkmagmeanfreq  
+The mean magnitude of the weighted average of the frequency components of jerk signal derived from the body accelerometer signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodybodygyromagmean 
+The mean magnitude of the body gyroscope signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodybodygyromagstd 
+The standard deviation of the magnitude of the body gyroscope signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodybodygyromagmeanfreq  
+The mean magnitude of the weighted average of the frequency components of the magnitude of the body gyroscope signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodybodygyrojerkmagmean  
+The mean magnitude of the body gyroscope signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodybodygyrojerkmagstd 
+The standard deviation of the magnitude of the body gyroscope signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
+
+### freqbodybodygyrojerkmagmeanfreq
+The mean magnitude of the weighted average of the frequency components of the magnitude of the body gyroscope signal in the frequency domain (after Fast Fourier Transform) 
+ - Class: number
+ - Unit of measurement: seconds
 
 
 ## Sources
